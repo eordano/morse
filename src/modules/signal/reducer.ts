@@ -34,7 +34,6 @@ function setupWebAudio() {
   const context = new ((window as any).AudioContext || (window as any).webkitAudioContext)();
   const oscillator = context.createOscillator()
   const analyzer = context.createAnalyser()
-  analyzer.set
   analyzer.fftSize = 2048
 
   oscillator.type = 'square'

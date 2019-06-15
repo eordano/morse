@@ -1,0 +1,11 @@
+.SignalPanel {
+    width: 50%;
+    margin: 0;
+}
+
+.Switch {
+    width: 100%;
+    border: none;
+    height: 100%;
+    background-color: black;
+}

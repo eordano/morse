@@ -1,0 +1,29 @@
+.ChallengePanel {
+    width: 50%;
+    margin: 0;
+
+}
+.ChallengePanel .Words {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ChallengePanel .Words .word {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ChallengePanel .Targets {
+    display: flex;
+    flex-direction: row;
+}
+
+.ChallengePanel .Letter {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 40px;
+    text-align: center;
+    margin: 4px;
+}
